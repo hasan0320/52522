@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    background:rgba(255, 184, 184, 0.2);
+    
+}
+
+.header{width: 100%;
+    height: 200px;
+   
+    overflow: hidden;
+   
+}
+ .image{width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.header .headline h1{font-size: 50px;
+    text-align: center;
+    color: rgb(235, 13, 31);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    
+}
+
+/*--end task of header*/
+
+
+
+    .hero  {width: 100%;
+        height: 300px;
+        margin-top: 10px;
+
+    }
+    
+
+    .hero .lefttask{width: 48%;
+    float: left;
+  
+    overflow: hidden;
+    margin-left: 5px;
+    
+    
+}
+
+
+.hero .lefttask p img{float: left;
+    
+    height: 150px;
+    width: 100px;
+}
+.hero .lefttask p{color:rgb(233, 104, 12);
+    text-align: justify;
+    
+}
+
+
+.hero .righttask{width:48%;
+    overflow: hidden;
+    float: right;
+    margin-right: 5px;
+    
+}
+
+.hero .righttask p img{float: right;
+    
+    height: 150px;
+    width: 150px;
+
+}
+
+.hero .righttask p{
+    color: rgb(231, 10, 21);
+    text-align: justify;
+}
+
+.hero p{padding:5px}
+
+
+
+.service{width: 100%;
+
+height: 300px;
+}
+
+
+.service .leftside{
+    width: 32%;
+    height: 300px;
+   
+    float: left;
+    margin-left: 5px;
+}
+
+.service .middleside{
+    width: 32%;
+    height: 300px;
+    
+    overflow: hidden;
+    float: left;
+    margin-left: 2%;
+}
+.service .rightside{
+    width: 32%;
+    height: 300px;
+   
+    overflow: hidden;
+    float: right;
+    
+}
+
+
+/*------leftside start-----*/
+
+.leftside h1{font-size: 40px;
+    color:rgb(15, 135, 240);
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+
+.leftside img {
+    width: 150px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.leftside ul {
+    padding-left: 15px;
+
+}
+
+
+/*------middleside start-----*/
+
+.middleside h1{font-size: 40px;
+    color:rgb(204, 35, 63);
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+
+.middleside img {
+    width: 150px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.middleside ul {
+    padding-left: 15px;
+
+}
+
+
+
+/*------rightside start-----*/
+
+
+.rightside h1{font-size: 40px;
+    color:rgb(6, 130, 238);
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+
+.rightside img {
+    width: 150px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.rightside ul {
+    padding-left: 15px;
+
+}
+
+/*----end right side task---*/
+
+
+.box{
+    width:300px;
+    height: 300px;
+    border: 2px solid blue;
+    margin: auto;
+    overflow-y: scroll;
+    overflow-x:hidden ;
+}
+.box p{text-align: justify;
+    padding: 5px;
+}
